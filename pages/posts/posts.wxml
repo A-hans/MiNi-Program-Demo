@@ -1,0 +1,14 @@
+<view>
+  <swiper>
+  <swiper-item>
+    <image src="/images/bestplayers.png"></image>
+  </swiper-item>
+  <swiper-item>
+    Content
+  </swiper-item>
+  <swiper-item>
+    Content
+  </swiper-item>
+  </swiper>
+</view>
+
