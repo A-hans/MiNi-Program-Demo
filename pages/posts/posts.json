@@ -1,4 +1,5 @@
 {
-  "usingComponents": {},
-  "navigationBarBackground":"#C22A1E"
+  "usingComponents": {
+    "l-icon":"/miniprogram_npm/lin-ui/icon/index"
+  }
 }

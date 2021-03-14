@@ -1,14 +1,36 @@
 <view>
-  <swiper>
+  <swiper circular="{{true}}" 
+          interval="{{3000}}" 
+          indicator-dots="{{true}}" 
+          autoplay="{{true}}">
   <swiper-item>
     <image src="/images/bestplayers.png"></image>
   </swiper-item>
   <swiper-item>
-    Content
+    <image src="/images/lpl.png"></image>
   </swiper-item>
   <swiper-item>
-    Content
+    <image src="/images/jumpfly.png"></image>
   </swiper-item>
   </swiper>
+  <view class="post-container">
+    <view class="post-author-date">
+      <image class="post-author" src="{{avatar}}"></image>
+      <text class="post-date">{{date}}</text>
+    </view>
+    
+    <text class="post-title">{{title}}</text>
+
+    <image class="post-image" src="{{image}}"></image>
+
+    <text class="post-content">{{content}}</text>
+
+    <view class="post-like">
+      <l-icon class="post-like-image" name="favor" size="{{32}}" color="#666"/>
+      <text class="post-like-font">{{likes}}</text>
+      <l-icon class="post-like-image" name="eye" size="{{32}}" color="#666"/>
+      <text class="post-like-font">{{views}}</text>
+    </view>  
+  </view>
 </view>
 
